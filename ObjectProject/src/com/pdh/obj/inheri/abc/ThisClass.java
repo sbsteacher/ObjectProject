@@ -19,7 +19,9 @@ public class ThisClass {
 	private int c;
 	
 	//기본생성자
-	public ThisClass() {}
+	public ThisClass() {		
+		this(0, 0, 0);
+	}
 	
 	public ThisClass(int a) {		
 		this(a, 0, 0);
@@ -30,6 +32,7 @@ public class ThisClass {
 	}
 	
 	public ThisClass(int a, int b, int c) {	
+		System.out.println("생성해 주셔서 감사합니다.");
 		setA(a);
 		setB(b);
 		setC(c);		

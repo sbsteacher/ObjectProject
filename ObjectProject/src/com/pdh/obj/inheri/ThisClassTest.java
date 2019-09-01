@@ -11,7 +11,7 @@ public class ThisClassTest {
 		ThisClass tc3 = new ThisClass(70, 100);
 		ThisClass tc4 = new ThisClass(40, 50, 60);
 		
-		tc.setA(49);
+		tc.setA(80);
 		
 		String str = tc.toString();
 		
