@@ -3,12 +3,13 @@ package com.pdh.obj.inheri;
 public class InheriTest {
 
 	public static void main(String[] args) {
+		/*
 		Person p = new Person();
 		p.setName("홍길동");
 		p.breath();
 		p.eat();
 		p.say();
-		
+		*/
 		Student s = new Student();		
 		s.setName("학생");
 		s.breath();

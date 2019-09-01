@@ -7,7 +7,7 @@ public class AnimalTest {
 		
 		String str = animal.toString();
 		
-		//System.out.println(animal);
+		System.out.println(animal);
 		System.out.println(str);
 		
 		/*

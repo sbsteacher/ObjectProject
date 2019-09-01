@@ -2,7 +2,7 @@ package com.pdh.obj.inheri;
 
 public class Person extends Object {	
 	private String name;
-	
+		
 	public Person(String name) {		
 		this.name = name;
 		System.out.println("Created Person");
